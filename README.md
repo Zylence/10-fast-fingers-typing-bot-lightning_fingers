@@ -1,5 +1,6 @@
 # Lightning-Fingers-typing-Bot
 
+
 # INTRODUCTION:
 
 I am happy to announce my first project ever! Lightning_fingers in an easy-to-use cheat/bot that can type for you on the 10-fast-figers website. It was build around Python and popular Open-Source libraries such as Pytesseract and Selenium. I know it may not have been the smartest idea... but I had no other option than to code it in Python.
@@ -13,6 +14,7 @@ probability so there are no repeating patterns!
 (A youtube video explaining the process may be linked soon...)
 
 To unlock the full capabilities you will have to go to the following link and download and install the tesseract-ocr-w... setup exe that matches your Operating Systems Version(64 bit or 32 bit). https://github.com/UB-Mannheim/tesseract/wiki
+
 IMPORTANT: write down the path to the location where you install tesseract! You will need it. For most people it will look sth. like this:
 "C:\Users\YOUR_NAME\AppData\Local\Programs\Tesseract-OCR" (without " and YOUR_NAME replaced with your user name)
 
@@ -27,7 +29,7 @@ After running the exe you will be greeted by a black window. Don't be afraid, it
 will open soon. Once everything has started your firewall will ask you to allow the program. You have to allow it, otherwise it won't work.
 
 
-WALKTHROUGH:
+# WALKTHROUGH:
 
 You have made it congrats. Now it's time to enjoy the program ;)
 
@@ -77,7 +79,7 @@ MODES:
 The "STOP" Button will close all applications.
 
 
-HINT:
+# HINT:
 
 When playing on a low-end PC or laptop you can try inputting higher wpm numbers such as 300, 400 ... this will shorten the timing and may enable you to get higher speeds. 
 But first try if you really need it!
