@@ -48,7 +48,7 @@ IMPORTANT:
 -ONLY USE STAT CREATOR ONCE!
 
 NOTE:
--The more you make it play the more legit it look. Unless of course you let it play to much... i Advise between 20 - 50 games to start with. But even 100 should be just fine.
+-The more you make it play the more legit it looks. Unless of course you let it play to much... i Advise between 20 - 50 games to start with. But even 100 should be just fine.
 
 
 After you have done that. The Anticheat will want you to evaluate your result. No Problem!
