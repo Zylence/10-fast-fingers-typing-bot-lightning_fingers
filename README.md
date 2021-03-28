@@ -21,9 +21,9 @@ IMPORTANT: write down the path to the location where you install tesseract! You 
 After you have done this you need to add it to your "path variable". This can be done by pressing "win key" + "r" on your keyboard and then inputting
 "sysdm.cpl" inside the dialogue box that pops up. You press enter an then choose the "Advanced" tab in the upcoming window and click "Environment Variables" at the bottom. Now in the "user variables" section you click "Path" once and choose "edit". You click on "New" and input the path which you safed somewhere earlier. That's it, you just have to confirm everything by pressing "OK".
 
-PASSWORD FOR UNZIPPING: "Zylence"
 Now you download the TWO zip files called lf.zip.001 and lf.zip.002 from this repo.
 Safe them in the same location and unzip the first one using 7zip. The second one will automaticly be used aswell. This should yield you an exe file.
+PASSWORD FOR UNZIPPING: "Zylence"
 
 After running the exe you will be greeted by a black window. Don't be afraid, it just takes some time to start. Another window as well as a browser
 will open soon. Once everything has started your firewall will ask you to allow the program. You have to allow it, otherwise it won't work.
