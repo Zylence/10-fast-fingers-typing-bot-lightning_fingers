@@ -1,5 +1,11 @@
 # Lightning-Fingers-typing-Bot
 
+## CONTENTS:
+[Introduction](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers#introduction)
+[Setup](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers#setup)
+[Walkthrough](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers#walkthrough)
+[Disclaimer](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers#disclaimer)
+
 
 ## INTRODUCTION:
 
@@ -8,7 +14,9 @@ I am happy to announce my first project ever! Lightning_fingers in an easy-to-us
 This Bot is meant to be LEGIT, so you can be playing in the leaderboards without getting banned. It has smart error feature and anti-anticheat build in. You can play multiplayer, competitions, everything! Everything it does is based around
 probability so there are no repeating patterns! It'a inputting letters at once mimicing human typing. You could easily record videos of it and noone would notice!
 
+
 ![image](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/Screenshots/operation.gif)
+
 
 ## SETUP:
 
