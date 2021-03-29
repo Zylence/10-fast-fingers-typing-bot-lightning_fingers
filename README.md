@@ -16,10 +16,10 @@ probability so there are no repeating patterns! It'a inputting letters at once m
 
 1.
 
-   To unlock the programs full capabilities you will have to go to the following [link](https://github.com/UB-Mannheim/tesseract/wiki) and download and install the tesseract-      ocr-w... setup exe that matches your Operating Systems Version(64 bit or 32 bit).
+   + To unlock the programs full capabilities you will have to go to the following [link](https://github.com/UB-Mannheim/tesseract/wiki) and download and install the tesseract-      ocr-w... setup exe that matches your Operating Systems Version(64 bit or 32 bit).
 
-   IMPORTANT: write down the path to the location where you install tesseract! You will need it. For most people it will look sth. like this:  
-   "C:\Users\YOUR_NAME\AppData\Local\Programs\Tesseract-OCR" (without " and YOUR_NAME replaced with your user name)
+   + IMPORTANT: write down the path to the location where you install tesseract! You will need it. For most people it will look sth. like this:
+     "C:\Users\YOUR_NAME\AppData\Local\Programs\Tesseract-OCR" (without " and YOUR_NAME replaced with your user name)
 
 2.
 After you have done this you need to add tesseract to your "path variable". This can be done by pressing "win key" + "r" on your keyboard and then inputting
