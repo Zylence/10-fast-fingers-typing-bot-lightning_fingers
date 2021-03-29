@@ -14,21 +14,27 @@ probability so there are no repeating patterns! It'a inputting letters at once m
 ### Follow the instructions carefully... It may seem a little hard to setup, but once it's done you will appreciate it because you won't ever have to do this again. ;)
 (A youtube video explaining the process may be linked soon...)
 
-To unlock the programs full capabilities you will have to go to the following [link](https://github.com/UB-Mannheim/tesseract/wiki) and download and install the tesseract-ocr-w... setup exe that matches your Operating Systems Version(64 bit or 32 bit).
+1.
+⋅⋅⋅To unlock the programs full capabilities you will have to go to the following [link](https://github.com/UB-Mannheim/tesseract/wiki) and download and install the tesseract-ocr-⋅⋅⋅w... setup exe that matches your Operating Systems Version(64 bit or 32 bit).
 
-IMPORTANT: write down the path to the location where you install tesseract! You will need it. For most people it will look sth. like this:
-"C:\Users\YOUR_NAME\AppData\Local\Programs\Tesseract-OCR" (without " and YOUR_NAME replaced with your user name)
+⋅⋅⋅IMPORTANT: write down the path to the location where you install tesseract! You will need it. For most people it will look sth. like this:
+⋅⋅⋅"C:\Users\YOUR_NAME\AppData\Local\Programs\Tesseract-OCR" (without " and YOUR_NAME replaced with your user name)
 
-After you have done this you need to add it to your "path variable". This can be done by pressing "win key" + "r" on your keyboard and then inputting
-"sysdm.cpl" inside the dialogue box that pops up. You press enter an then choose the "Advanced" tab in the upcoming window and click "Environment Variables" at the bottom. Now in the "user variables" section you click "Path" once and choose "edit". You click on "New" and input the path which you safed somewhere earlier. That's it, you just have to confirm everything by pressing "OK".
+2.
+⋅⋅⋅After you have done this you need to add tesseract to your "path variable". This can be done by pressing "win key" + "r" on your keyboard and then inputting
+⋅⋅⋅"sysdm.cpl" inside the dialogue box that pops up. You press enter an then choose the "Advanced" tab in the upcoming window and click "Environment Variables" at the bottom. Now ⋅⋅⋅in the "user variables" section you click "Path" once and choose "edit". You click on "New" and input the path which you safed somewhere earlier. That's it, you just have to ⋅⋅⋅confirm everything by pressing "OK".
 
-In case you are not already using [Google Chrome](https://www.google.com/intl/en_en/chrome/), download it, otherwise the bot won't work.
+3.
+⋅⋅⋅In case you are not already using [Google Chrome](https://www.google.com/intl/en_en/chrome/), download it, otherwise the bot won't work.
 
-Now you download the TWO zip files called [lf.zip.001](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.001) and [lf.zip.002](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.002) from my repo. You can find them by either searching above or clicking the individual links. Safe them in the same location and unzip the first one using [7zip](https://www.7-zip.org/). The second one will automaticly be used aswell. This should yield you an exe file.
-PASSWORD FOR UNZIPPING: "Zylence"
+4.
+⋅⋅⋅Now you download the TWO zip files called [lf.zip.001](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.001) and
+⋅⋅⋅[lf.zip.002](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.002) from my repo. You can find them by either searching above or ⋅⋅⋅clicking the individual links. Safe them in the same location and unzip the first one using [7zip](https://www.7-zip.org/). The second one will automaticly be used aswell. ⋅⋅⋅This should yield you an exe file.
+⋅⋅⋅PASSWORD FOR UNZIPPING: "Zylence"
 
-After running the exe you will be greeted by a black window. Don't be afraid, it just takes some time to start. Another window as well as a browser
-will open soon. Once everything has started your firewall will ask you to allow the program. You have to allow it, otherwise it won't work.
+5.
+⋅⋅⋅After running the exe you will be greeted by a black window. Don't be afraid, it just takes some time to start. Another window as well as a browser
+⋅⋅⋅will open soon. Once everything has started your firewall will ask you to allow the program. You have to allow it, otherwise it won't work.
 
 
 ## WALKTHROUGH:
