@@ -2,8 +2,11 @@
 
 ## CONTENTS:
 [Introduction](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers#introduction)
+
 [Setup](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers#setup)
+
 [Walkthrough](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers#walkthrough)
+
 [Disclaimer](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers#disclaimer)
 
 
