@@ -35,7 +35,7 @@ probability so there are no repeating patterns! It'a inputting letters at once m
 
 2. 
    + After you have done this you need to add tesseract to your "path variable". This can be done by pressing "win key" + "r" on your keyboard and then inputting
-     "sysdm.cpl" inside the dialogue box that pops up. You press enter an then choose the "Advanced" tab in the upcoming window and click "Environment Variables" at the bottom.      Now in the "user variables" section you click "Path" once and choose "edit". You click on "New" and input the path which you safed somewhere earlier. That's it, you just        have to confirm everything by pressing "OK".
+     "sysdm.cpl" inside the dialogue box that pops up. You press enter an then choose the "Advanced" tab in the upcoming window and click "Environment Variables" at the bottom.      Now in the "user variables" section you click "Path" once and choose "edit". You click on "New" and input the path which you saved somewhere earlier. That's it, you just        have to confirm everything by pressing "OK".
 
 
 3. 
@@ -44,7 +44,7 @@ probability so there are no repeating patterns! It'a inputting letters at once m
 
 4. 
    + Now you download the TWO zip files called [lf.zip.001](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.001) and
-     [lf.zip.002](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.002) from my repo. You can find them by either searching above or          clicking the individual links. Safe them in the same location and unzip the first one using [7zip](https://www.7-zip.org/). The second one will automaticly be used aswell.      This should yield you an exe file.
+     [lf.zip.002](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.002) from my repo. You can find them by either searching above or          clicking the individual links. Save them in the same location and unzip the first one using [7zip](https://www.7-zip.org/). The second one will automaticly be used aswell.      This should yield you an exe file.
      
     + PASSWORD FOR UNZIPPING: "Zylence"
     + If the zip files get renamed to sth like "lf.zip(1).001" change it back to its original name, it may not work otherwise!
