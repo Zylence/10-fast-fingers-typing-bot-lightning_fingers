@@ -12,6 +12,7 @@
 
 ## INTRODUCTION:
 
+https://youtu.be/xk9nXOd2G-Y
 I am happy to announce my first project ever! Lightning_fingers in an easy-to-use cheat/bot that can type for you on the [10-fast-figers website](https://10fastfingers.com/typing-test/). It was build around Python and popular Open-Source libraries such as Pytesseract and Selenium. I know it may not have been the smartest idea to code in Python since it's "slower" than other languages... but I had no other option than to so.
 
 This Bot is meant to be LEGIT, so you can be playing in the leaderboards without getting banned. It has smart error feature and anti-anticheat build in. You can play multiplayer, competitions, everything! Everything it does is based around
