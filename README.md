@@ -45,10 +45,9 @@ probability so there are no repeating patterns! It'a inputting letters at once m
 
 
 4. 
-   + Now you download the TWO zip files called [lf.zip.001](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.001) and
-     [lf.zip.002](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/blob/main/lf.zip.002) from my repo. You can find them by either searching above or          clicking the individual links. Save them in the same location and unzip the first one using [7zip](https://www.7-zip.org/). The second one will automaticly be used aswell.      This should yield you an exe file.
+   + Now you download the TWO zip files called "lf.zip.001" and
+     "lf.zip.002" from this folder ["Windows"](https://github.com/Zylence/10-fast-fingers-typing-bot-lightning_fingers/tree/main/Windows). Save them in the same location and unzip the first one using [7zip](https://www.7-zip.org/). The second one will automaticly be used aswell.      This should yield you an exe file.
      
-    + PASSWORD FOR UNZIPPING: "Zylence"
     + If the zip files get renamed to sth like "lf.zip(1).001" change it back to its original name, it may not work otherwise!
 
 
