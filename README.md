@@ -88,11 +88,11 @@ Plays a user definable amount of games, slowly increasing wpm. This is meant to 
 
 -> at the top input the wpm you wish to achieve -> input the number of games you want the system to play under "Stat Creator" -> click "GO!" -> enjoy!
 
--During this process (and any other as well) the program can run in the background, you don't have to waste any time watching it while this is running, simply minimize it and carry on with what you are doing.
--The more you make it play the more legit it looks. Unless of course you let it play to much... i Advise between 20 - 50 games to start with. But in the end its up to you what amount to input there.
++ During this process (and any other as well) the program can run in the background, you don't have to waste any time watching it while this is running, simply minimize it and carry on with what you are doing.
++ The more you make it play the more legit it looks. Unless of course you let it play to much... i Advise between 20 - 50 games to start with. But in the end its up to you what amount to input there.
 
--NEVER USE STAT CREATOR WITH LESS THAN 100 WPM (IF YOU WANT YOUR INITIAL STATISTICS TO END UP AT 180, PICK 180)
--ONLY USE STAT CREATOR ONCE!
++ NEVER USE STAT CREATOR WITH LESS THAN 100 WPM (IF YOU WANT YOUR INITIAL STATISTICS TO END UP AT 180, PICK 180)
++ ONLY USE STAT CREATOR ONCE!
 
 
 ### MODES:
