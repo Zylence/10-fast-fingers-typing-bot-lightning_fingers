@@ -86,7 +86,7 @@ Once prompted to evaluate your result, click on the notification and head to the
 #### Stat Creator
 Plays a user definable amount of games, slowly increasing wpm. This is meant to make your stats look more legit, but does not work particularly well, so you might as well skip it.
 
--> at the top input the wpm you wish to achieve -> input the number of games you want the system to play under "Stat Creator" -> click "GO!" -> enjoy!
+-> at the top input the wpm you wish to achieve -> input the number of games you want the system to play under "Stat Creator" -> click "GO!"
 
 + During this process (and any other as well) the program can run in the background, you don't have to waste any time watching it while this is running, simply minimize it and carry on with what you are doing.
 + The more you make it play the more legit it looks. Unless of course you let it play to much... i Advise between 20 - 50 games to start with. But in the end its up to you what amount to input there.
