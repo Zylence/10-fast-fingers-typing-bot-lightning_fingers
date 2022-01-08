@@ -68,20 +68,24 @@ The buttons are tied to the input field above them and serve the following tasks
 
 #### Normal 
 Meant for all the modes and challenges that are accessible directly from the main page of 10 fast fingers.
+
 -> input wpm at the top -> input failure rate -> hit "GO!"
 
 #### Multiplayer
 A special mode for competitions where you go head to head with others.
+
 -> input wpm at the top -> input failure rate -> hit "GO!"
 
 #### Anti Anticheat
 Once prompted to evaluate your result, click on the notification and head to the test.
+
 -> input your desired wpm up top -> head over to the evaluation process -> click "Start" on the website -> click "GO!"
 
 + this may not work immediately. It's a little luck based if your system can read the picture. Just retry..
 
 #### Stat Creator
 Plays a user definable amount of games, slowly increasing wpm. This is meant to make your stats look more legit, but does not work particularly well, so you might as well skip it.
+
 -> at the top input the wpm you wish to achieve -> input the number of games you want the system to play under "Stat Creator" -> click "GO!" -> enjoy!
 
 -During this process (and any other as well) the program can run in the background, you don't have to waste any time watching it while this is running, simply minimize it and carry on with what you are doing.
@@ -92,7 +96,6 @@ Plays a user definable amount of games, slowly increasing wpm. This is meant to 
 
 
 ### MODES:
-
 "Rage Mode", "Dynamic Mode" and "Standard Mode" can be paired with any of the game modes! Simply select it before starting.
 
 #### Rage Mode 
