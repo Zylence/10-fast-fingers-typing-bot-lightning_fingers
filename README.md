@@ -14,7 +14,7 @@
 
 https://youtu.be/xk9nXOd2G-Y
 
-I am happy to announce my first project ever! Lightning_fingers in an easy-to-use cheat/bot that can type for you on the [10-fast-figers website](https://10fastfingers.com/typing-test/). It was build around Python and popular Open-Source libraries such as Pytesseract and Selenium. I know it may not have been the smartest idea to code in Python since it's "slower" than other languages... but I had no other option than to do so.
+I am happy to announce my first project ever! Lightning_fingers in an easy-to-use cheat/bot that can type for you on the [10-fast-figers website](https://10fastfingers.com/typing-test/). It was build around Python and popular Open-Source libraries such as Pytesseract and Selenium.
 
 This Bot is meant to be LEGIT, so you can be playing in the leaderboards without getting banned. It has smart error feature and anti-anticheat build in. You can play multiplayer, competitions, everything! Everything it does is based around
 probability so there are no repeating patterns! It'a inputting letters at once mimicing human typing. You could easily record videos of it and noone would notice!
@@ -41,7 +41,7 @@ probability so there are no repeating patterns! It'a inputting letters at once m
 
 
 3. 
-   + In case you are not already using [Google Chrome](https://www.google.com/intl/en_en/chrome/), download it, otherwise the bot won't work.
+   + I recommend using [Google Chrome](https://www.google.com/intl/en_en/chrome/), it may not work with other browsers.
 
 
 4. 
