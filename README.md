@@ -51,23 +51,22 @@ probability so there are no repeating patterns! It'a inputting letters at once m
     + If the zip files get renamed to sth like "lf.zip(1).001" change it back to its original name, it may not work otherwise!
 
 
-After running the exe you will be greeted by a black window, which will take a while before spawning your GUI as well as a browser instance
-will. Once everything has started your firewall will ask you to allow the program. You have to allow it, otherwise it may not work.
+After running the exe you will be greeted by a black window, which will take a while before spawning your GUI as well as a browser instance. Once everything has started your firewall will ask you to allow the program. I advise to allow it, otherwise it may not work.
 
 
-## WALKTHROUGH:
+## Usage:
 
 You have made it congrats. Now it's time to enjoy the program ;)
 
 As pointed out this program is meant to look legit. On the top right you can choose the "failure rate" at which smart typos will be made.
-But I advise leaving it around 5%.
+But I advise leaving it around 5 (that will be 5%).
 
 
 ### GO!
 The buttons are tied to the input field above them and serve the following tasks:
 
 #### Normal 
-Meant for all the modes and challenges that are accessible directly from the main page of 10 fast fingers.
+Meant for all the typing-stuff and challenges that are accessible directly from the main page of 10 fast fingers.
 
 -> input wpm at the top -> input failure rate -> hit "GO!"
 
@@ -89,10 +88,10 @@ Plays a user definable amount of games, slowly increasing wpm. This is meant to 
 -> at the top input the wpm you wish to achieve -> input the number of games you want the system to play under "Stat Creator" -> click "GO!"
 
 + During this process (and any other as well) the program can run in the background, you don't have to waste any time watching it while this is running, simply minimize it and carry on with what you are doing.
-+ The more you make it play the more legit it looks. Unless of course you let it play to much... i Advise between 20 - 50 games to start with. But in the end its up to you what amount to input there.
++ The more you make it play the more legit it looks. Unless of course you let it play to much... I advise between 20 - 50 games to start with. But in the end its up to you what amount to input there.
 
-+ NEVER USE STAT CREATOR WITH LESS THAN 100 WPM (IF YOU WANT YOUR INITIAL STATISTICS TO END UP AT 180, PICK 180)
-+ ONLY USE STAT CREATOR ONCE!
++ NEVER use stat creator with less than 100 wpm (if you want up your final statistics to end up at 180, pick 180)!
++ ONLY use stat creator once!
 
 
 ### MODES:
