@@ -54,7 +54,7 @@ probability so there are no repeating patterns! It'a inputting letters at once m
 After running the exe you will be greeted by a black window, which will take a while before spawning your GUI as well as a browser instance. Once everything has started your firewall will ask you to allow the program. I advise to allow it, otherwise it may not work.
 
 
-## Usage:
+## Walkthrough:
 
 You have made it congrats. Now it's time to enjoy the program ;)
 
