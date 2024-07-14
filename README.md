@@ -24,8 +24,10 @@ probability so there are no repeating patterns! It'a inputting letters at once m
 
 ## BUILDING FROM SOURCE
 In case you want to build the project from source, because you want to make own adjustments, this section is for you. In case you just want to use the precompiled biarny, skip to the [Setup Section](#SETUP) directly.
-+ In the project root, run: `pyinstaller --onefile --noconsole --icon=lightning_fingers.ico .\main.py --name lf`
++ Install the dependencies via: `pip install -r requirements.txt`
++ To build the binary, in the project root, run: ` pyinstaller --onefile --noconsole --icon=./main/lightning_fingers.ico ./main/main.py --name lf`
 + Remove `--noconsole` for easier debugging of the binary. 
++ Tipp: use a new venv, this will make the resulting exe smaller by avoiding including unnecessary packages. 
 
 ## SETUP:
 
