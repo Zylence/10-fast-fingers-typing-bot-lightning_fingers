@@ -53,17 +53,42 @@ class XPATHS:
     rld_bttn = '//*[@id="reload-btn"]/span'
 
 
+def micro_delay():
+    """ calculates a micro delay
+    and returns it"""
+
+    factor1 = [0.003, 0.001, 0.002, 0.008, 0.0009, 0.005, 0.007, 0.004, 0.006]
+    factor2 = random.randint(1, 4)
+    delay = (random.choice(factor1)) * factor2
+    return delay
+
+
+def safety_delay():
+    """returns a delay, chosen at random"""
+
+    pause = (random.choice([3.5, 7, 9, 5]) + micro_delay())
+    return pause
+
+
+def spawn_as_thread(func, param_dict):
+    """takes function 'func' and a dict 'param_dict'
+    to create a thread based on the parameters"""
+
+    t = threading.Thread(target=func, kwargs=param_dict, daemon=True)
+    t.start()
+
+
 class App:
-    def __init__(self, root):
+    def __init__(self, tk):
         service = Service(ChromeDriverManager().install())
         options = webdriver.ChromeOptions()
         self.driver = webdriver.Chrome(service=service, options=options)
         self.driver.delete_all_cookies()
         self.driver.get("https://10fastfingers.com/login")
 
-        self.root = root
+        self.root = tk
         self.root.title("Lightning Fingers")
-        self.root.iconbitmap("lightning_fingers.ico")
+        # self.root.iconbitmap("lightning_fingers.ico")
 
         self.mode_state = IntVar()
         self.output_text = StringVar()
@@ -109,31 +134,34 @@ class App:
         Entry_num_Games.grid(row=1, column=2)
 
         Start_Button = Button(frame, text="GO!", font="Arial 20 bold", fg="green",
-                              command=lambda: self.thread_creator(self.writer, {"wpm": Entry_Words.get(),
-                                                                      "input": XPATHS.normal_ip,
-                                                                      "resource": XPATHS.normal_resource,
-                                                                      "failure_rate": int(Entry_FR.get()),
-                                                                      "mode": int(self.mode_state.get())}))
+                              command=lambda: spawn_as_thread(self.writer, {"wpm": Entry_Words.get(),
+                                                                                "input": XPATHS.normal_ip,
+                                                                                "resource": XPATHS.normal_resource,
+                                                                                "failure_rate": int(Entry_FR.get()),
+                                                                                "mode": int(self.mode_state.get())}))
         Start_Button.grid(row=2, column=2)
 
         Anti_Button = Button(frame3, text="GO!", font="Arial 10 bold", fg="red", padx=20,
-                             command=lambda: self.thread_creator(self.trick_anticheat, {"wpm": int(Entry_Words.get()),
-                                                                              "mode": int(self.mode_state.get())}))
+                             command=lambda: spawn_as_thread(self.trick_anticheat, {"wpm": int(Entry_Words.get()),
+                                                                                        "mode": int(
+                                                                                            self.mode_state.get())}))
         Anti_Button.grid(row=3, column=2)
 
         Challenge_Button = Button(frame4, text="GO!", font="Arial 10 bold", fg="red", padx=20,
-                                  command=lambda: self.thread_creator(self.writer, {"wpm": Entry_Words.get(),
-                                                                          "input": XPATHS.challenge_ip,
-                                                                          "resource": XPATHS.challenge_resource,
-                                                                          "challenge_mode": True,
-                                                                          "failure_rate": int(Entry_FR.get()),
-                                                                          "mode": int(self.mode_state.get())}))
+                                  command=lambda: spawn_as_thread(self.writer, {"wpm": Entry_Words.get(),
+                                                                                    "input": XPATHS.challenge_ip,
+                                                                                    "resource": XPATHS.challenge_resource,
+                                                                                    "challenge_mode": True,
+                                                                                    "failure_rate": int(Entry_FR.get()),
+                                                                                    "mode": int(
+                                                                                        self.mode_state.get())}))
         Challenge_Button.grid(row=2, column=1)
 
         Stat_Button = Button(frame5, text="GO!", font="Arial 10 bold", fg="red", padx=20,
-                             command=lambda: self.thread_creator(self.stat_creator, {"wpm": int(Entry_Words.get()),
-                                                                           "num_games": int(Entry_num_Games.get()),
-                                                                           "fr_rate": int(Entry_FR.get())}))
+                             command=lambda: spawn_as_thread(self.stat_creator, {"wpm": int(Entry_Words.get()),
+                                                                                     "num_games": int(
+                                                                                         Entry_num_Games.get()),
+                                                                                     "fr_rate": int(Entry_FR.get())}))
         Stat_Button.grid(row=3, column=2)
 
         Stop_Button = Button(self.root, text="STOP", font="Arial 10 bold", fg="red", padx=20,
@@ -155,7 +183,7 @@ class App:
         self.root.quit()
         self.driver.delete_all_cookies()
         self.driver.close()
-        exit(0)
+        sys.exit(0)
 
     def update_output_label(self, message, pause):
         """refreshes the output layer using 'value',
@@ -164,13 +192,6 @@ class App:
         self.output_text.set(25 * " " + message + " " * 25)
         time.sleep(pause)
         root.update_idletasks()
-
-    def thread_creator(self, func, param_dict):
-        """takes function 'func' and a dict 'param_dict'
-        to create a thread based on the parameters"""
-
-        t = threading.Thread(target=func, kwargs=param_dict)
-        t.start()
 
     def trick_anticheat(self, wpm, mode):
         """utilizes tesseract to extract text from images
@@ -188,9 +209,9 @@ class App:
             print("encountered error, please retry")
 
         img.screenshot("pic.png")
-        time.sleep(0.09 + self.micro_delay())
+        time.sleep(0.09 + micro_delay())
         input_box.send_keys(Keys.TAB, Keys.ENTER)
-        time.sleep(0.09 + self.micro_delay())
+        time.sleep(0.09 + micro_delay())
 
         string = pytesseract.image_to_string('pic.png')
         word_lst = string.split()
@@ -207,11 +228,11 @@ class App:
                 self.update_output_label("word: " + str(word), 0)
                 time_per_letter = time_per_word / len(word)
                 for letter in word:
-                    delay = self.micro_delay()
+                    delay = micro_delay()
                     time.sleep((time_per_letter + delay))
                     input_box.send_keys(letter)
                 input_box.send_keys(Keys.SPACE)
-                time.sleep(self.micro_delay())
+                time.sleep(micro_delay())
 
         time.sleep(0.246)
         input_box.send_keys(Keys.TAB, Keys.ENTER)
@@ -231,42 +252,34 @@ class App:
         for g in range(num_games):
 
             self.update_output_label("starting game:" + str(g), 0.25)
-            pause = self.safety_delay()
+            pause = safety_delay()
             chance = random.choice(percentage)
 
             # 10 chance for temporary heavy decrease
             if chance <= 10:
                 temp_wpm = wpm / random.choice([2, 2.5, 1.5, 3])
                 self.writer(wpm=temp_wpm, failure_rate=fr_rate, input=XPATHS.normal_ip, resource=XPATHS.normal_resource,
-                       mode=2)
+                            mode=2)
                 self.reload()
-                time.sleep(pause + self.micro_delay())
+                time.sleep(pause + micro_delay())
 
             # 40% chance for temporary gain or loss
-            elif chance > 10 and chance <= 50:
+            elif 10 < chance <= 50:
                 temp_wpm = wpm + random.choice([-25, 9, -22, 5, -10])
                 self.writer(wpm=temp_wpm, failure_rate=fr_rate, input=XPATHS.normal_ip, resource=XPATHS.normal_resource,
-                       mode=2)
-                time.sleep(pause + self.micro_delay())
+                            mode=2)
+                time.sleep(pause + micro_delay())
                 self.reload()
-                time.sleep(pause + self.micro_delay())
+                time.sleep(pause + micro_delay())
 
             # 50% chance for permanent increase
             else:
                 wpm = wpm + gain_per_game * 2
-                self.writer(wpm=wpm, failure_rate=fr_rate, input=XPATHS.normal_ip, resource=XPATHS.normal_resource, mode=2)
-                time.sleep(pause + self.micro_delay())
+                self.writer(wpm=wpm, failure_rate=fr_rate, input=XPATHS.normal_ip, resource=XPATHS.normal_resource,
+                            mode=2)
+                time.sleep(pause + micro_delay())
                 self.reload()
-                time.sleep(pause + self.micro_delay())
-
-    def micro_delay(self):
-        """ calculates a micro delay
-        and returns it"""
-
-        factor1 = [0.003, 0.001, 0.002, 0.008, 0.0009, 0.005, 0.007, 0.004, 0.006]
-        factor2 = random.randint(1, 4)
-        delay = (random.choice(factor1)) * factor2
-        return delay
+                time.sleep(pause + micro_delay())
 
     def writer(self, wpm, failure_rate, input="", resource="", challenge_mode=False, mode=0):
         """the writer is the hearth of the programm.
@@ -385,17 +398,11 @@ class App:
             print(err)
             pass
 
-    def safety_delay(self):
-        """returns a delay, chosen at random"""
-
-        pause = (random.choice([3.5, 7, 9, 5]) + self.micro_delay())
-        return pause
-
     def reload(self):
         """clicks the reload button in normal mode
         using resources defined in main"""
 
-        time.sleep(self.safety_delay())
+        time.sleep(safety_delay())
         self.driver.find_element(By.XPATH, XPATHS.rld_bttn).click()
 
 
